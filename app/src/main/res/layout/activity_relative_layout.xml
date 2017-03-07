@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.asus.androidlab1.RelativeLayout">
+
+
+    <TextView android:id="@+id/red"
+              android:layout_height="45dp"
+              android:layout_width="60dp"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:gravity="center"
+              android:textSize="16sp"
+              android:text="red" />
+
+    <TextView android:id="@+id/yellow"
+        android:layout_height="45dp"
+        android:layout_width="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="yellow" />
+
+    <TextView android:id="@+id/orange"
+        android:layout_height="45dp"
+        android:layout_width="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="orange" />
+
+    <TextView android:id="@+id/blue"
+        android:layout_height="45dp"
+        android:layout_width="60dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="blue" />
+
+    <TextView android:id="@+id/green"
+        android:layout_height="45dp"
+        android:layout_width="80dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/blue"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="green" />
+
+    <TextView android:id="@+id/indigo"
+        android:layout_height="45dp"
+        android:layout_width="80dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/blue"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="indigo" />
+
+
+    <TextView android:id="@+id/pink"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="pink" />
+</RelativeLayout>
