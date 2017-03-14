@@ -6,4 +6,4 @@ LinearLayout</br>
 RelativeLayout</br>
 ![image](https://github.com/xx12138/AndroidLab1/blob/master/app/src/main/res/image/2.png)</br>
 TableLayout</br>
-![image](https://github.com/xx12138/AndroidLab1/blob/master/app/src/main/res/image/4.png)</br>
+![image](https://github.com/xx12138/AndroidLab1/blob/master/app/src/main/res/image/3.png)</br>
